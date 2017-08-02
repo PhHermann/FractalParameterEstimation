@@ -23,6 +23,7 @@ install.packages("/PathToFPE/FractalParameterEstimation_<version>.tar.gz", repos
 The R-package contains several example data sets for estimating the parameters p and q of the [p-p-p-q]-model. These estimations can be performed with the following commands: 
 
 ```R
+require(FractalParameterEstimation)
 ## Example 1: Original p-Value: 0.2; Original q-value: 0.1
 estimationFunction(Data0201, decs = 2)
 ## Example 2: Original p-value: 0.3; Original q-value: 0.25
@@ -48,3 +49,9 @@ GSC_seq(p = c(rep(0.1,3),0.05), sierp = FALSE)
 ```
 
 Note that the last case reflects a simulation of a Sierpinski-Carpet using four ramifications under the [p-p-p-q]-model. The output could be used to directly estimate the according parameters p and q. 
+
+Detailed descriptions of the main functions and all adjacent functions computing the recombination map can be found via e.g.
+
+```R
+?FractalParameterEstimation
+```

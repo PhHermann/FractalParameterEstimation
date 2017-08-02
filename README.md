@@ -50,7 +50,7 @@ GSC_seq(p = c(rep(0.1,3),0.05), sierp = FALSE)
 
 Note that the last case reflects a simulation of a Sierpinski-Carpet using four ramifications under the [p-p-p-q]-model. The output could be used to directly estimate the according parameters p and q. 
 
-Detailed descriptions of the main functions and all adjacent functions computing the recombination map can be found via e.g.
+Detailed descriptions of the main functions and all adjacent functions can be found as general in *R* via e.g.
 
 ```R
 ?FractalParameterEstimation

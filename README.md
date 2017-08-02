@@ -10,7 +10,7 @@ Please contact me in case of questions, comments, bug reports, etc...
 
 
 ## Dependencies & System Requirements
-This package only requires an installtion of R (>= 2.2) and uses only functions which are directly installed. 
+This package requires an installation of R (>= 2.2) and uses functions which are directly installed. 
 
 ## Installation
 The most recent version of **FractalParameterEstimation** is contained in *[Sources](./Sources)*. The ZIP-File of the package can be downloaded via "Clone or download". The installation is performed as usually in R via a the command: 

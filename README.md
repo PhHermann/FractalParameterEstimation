@@ -36,13 +36,13 @@ estimationFunction(Data0603)
 
 The most recent version also contains functions to simulate Sierpinski-Carpets under user defined ramifications. Therefore, both, constant as well as variable probabilities can be used with the following commands: 
 
-*Constant Case: 
+* Constant Case: 
 ```R
 GSC(p = 0.2, N = 4, sierp = TRUE)
 GSC(p = 0.8, N = 2, sierp = FALSE)
 ```
 
-*Variable Case: 
+* Variable Case: 
 ```R
 GSC_seq(p = c(0.1,0.2,0.1,0.4), sierp = TRUE)
 GSC_seq(p = c(rep(0.1,3),0.05), sierp = FALSE)
